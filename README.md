@@ -18,3 +18,12 @@ install pybullet
 ```
 pip install pybullet
 ```
+clone this repository
+```
+git clone https://github.com/Kanazawanaoaki/pybullet_pr2_memo.git
+```
+
+test Setup
+```
+python pybullet_pr2_memo/test/env_test.py
+```
