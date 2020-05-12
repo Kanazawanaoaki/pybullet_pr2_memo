@@ -10,7 +10,7 @@ import skrobot
 
 def main():
     # initialize robot
-    robot = skrobot.models.pr2.PR2()
+    robot = skrobot.models.Fetch()
     interface = skrobot.interfaces.PybulletRobotInterface(robot)
     pybullet.resetDebugVisualizerCamera(
         cameraDistance=1.5,
