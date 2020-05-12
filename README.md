@@ -10,3 +10,11 @@ cd pr2py_dir/
 virtualenv -p python3.6 pr2py-env
 source pr2py-env/bin/activate
 ```
+install scikit-robot
+```
+pip install scikit-robot
+```
+install pybullet
+```
+pip install pybullet
+```
