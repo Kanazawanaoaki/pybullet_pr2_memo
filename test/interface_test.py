@@ -6,12 +6,14 @@ import numpy as np
 import pybullet
 
 import skrobot
+from skrobot.interfaces.ros import PR2ROSRobotInterface
 
 
 def main():
     # initialize robot
     robot = skrobot.models.pr2.PR2()
-    interface = skrobot.interfaces.PR2ROSRobotInterface(robot)
+    interface = PR2ROSRobotInterface(robot)
+    # interface = skrobot.interfaces.PybulletRobotInterface(robot)
     pybullet.resetDebugVisualizerCamera(
         cameraDistance=1.5,
         cameraYaw=45,
