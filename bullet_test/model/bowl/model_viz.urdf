@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
-<robot name="pot"
+<robot name="bowl"
        xmlns:xi="http://www.w3.org/2001/XInclude">
   <gazebo>
     <static>false</static>
   </gazebo>
   <link name="nil_link">
-    <visual>
-      <origin xyz="0 0 0" rpy="0 -0 0"/>
-      <geometry>
-        <mesh filename="model://pot/meshes/nil_link_mesh.dae" scale="1 1 1" />
-      </geometry>
-    </visual>
+    <!-- <visual> -->
+    <!--   <origin xyz="0 0 0" rpy="0 -0 0"/> -->
+    <!--   <geometry> -->
+    <!--     <mesh filename="model://bowl/meshes/nil_link_mesh.dae" scale="1 1 1" /> -->
+    <!--   </geometry> -->
+    <!-- </visual> -->
     <collision concave="yes">
     <!-- <collision> -->
       <origin xyz="0 0 0" rpy="0 -0 0"/>
       <geometry>
-        <mesh filename="model://pot/meshes/nil_link_mesh.dae" scale="1 1 1" />
+        <mesh filename="model://bowl/meshes/nil_link_mesh.dae" scale="1 1 1" />
       </geometry>
     </collision>
     <inertial>
