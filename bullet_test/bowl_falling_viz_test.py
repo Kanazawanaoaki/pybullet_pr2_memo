@@ -32,7 +32,7 @@ p.setGravity(0,0,-10)
 # for ball_id in ball_ids:
 #     set_point(ball_id, [rn.randn()*0.05, rn.randn()*0.05, 0.2 + rn.random()*2])
 
-tray_id = p.loadURDF("model/bowl/model.urdf")
+tray_id = p.loadURDF("model/bowl/model_viz.urdf")
 ball_ids = []
 ball_ids.append(p.loadURDF("model/potato1/model.urdf"))
 ball_ids.append(p.loadURDF("model/potato2/model.urdf"))
